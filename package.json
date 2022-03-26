@@ -1,0 +1,16 @@
+{
+  "name": "pro_2",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "devDependencies": {},
+  "scripts": {
+    "build_tail": "tailwindcss build -i ./src/tail.css -o ./public/index.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
