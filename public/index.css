@@ -604,16 +604,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 50%;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-2\/3 {
-  width: 66.666667%;
-}
-
-.w-\[63\%\] {
-  width: 63%;
+.w-1\/4 {
+  width: 25%;
 }
 
 .max-w-screen-lg {
@@ -744,12 +736,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   fill: #fff;
 }
 
-.p-6 {
-  padding: 1.5rem;
-}
-
 .p-4 {
   padding: 1rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .px-2 {
@@ -904,10 +896,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
-.peer:checked ~ .peer-checked\:flex-col {
-  flex-direction: column;
-}
-
 @media (min-width: 250px) {
   .vxs\:block {
     display: block;
@@ -919,6 +907,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .vxs\:w-1\/5 {
     width: 20%;
+  }
+
+  .vxs\:w-1\/4 {
+    width: 25%;
+  }
+
+  .vxs\:flex-col {
+    flex-direction: column;
   }
 }
 
@@ -933,6 +929,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xs\:w-\[46\%\] {
     width: 46%;
+  }
+
+  .xs\:w-auto {
+    width: auto;
+  }
+
+  .xs\:flex-row {
+    flex-direction: row;
   }
 }
 
@@ -1011,12 +1015,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 18rem;
   }
 
-  .md\:w-full {
-    width: 100%;
-  }
-
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:w-full {
+    width: 100%;
   }
 
   .md\:grid-cols-2 {
